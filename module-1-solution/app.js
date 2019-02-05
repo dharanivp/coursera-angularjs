@@ -8,7 +8,7 @@ MyLunchCheckController.$inject = [$scope];
 function MyLunchCheckController($scope)
 {
 	$scope.dishes = "";
-	$scope.DisplayMessage = "hello";
+	$scope.DisplayMessage = "";
 	$scope.count=0;
 	$scope.checkItems = function()
 	{
