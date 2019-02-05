@@ -29,9 +29,8 @@ function MyLunchCheckController($scope)
 		else
 			$scope.DisplayMessage = "Please enter data first";
 			
-		return $scope.DisplayMessage;
+		
 	};
-	console.log($injector.annotate(MyLunchCheckController));
 	
 }
 
