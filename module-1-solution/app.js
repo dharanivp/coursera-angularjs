@@ -8,7 +8,7 @@ MyLunchCheckController.$inject = [$scope];
 function MyLunchCheckController($scope)
 {
 	$scope.dishes = "";
-	$scope.DisplayMessage = "";
+	$scope.DisplayMessageToUser = "";
 	$scope.count=0;
 	$scope.checkItems = function()
 	{
@@ -23,11 +23,11 @@ function MyLunchCheckController($scope)
 		}
 		
 		if($scope.count <= 3 && $scope.count > 0)
-			$scope.DisplayMessage = "Enjoy!";
+			$scope.DisplayMessageToUser = "Enjoy!";
 		else if($scope.count > 3)
-			$scope.DisplayMessage = "Too much!";
+			$scope.DisplayMessageToUser = "Too much!";
 		else
-			$scope.DisplayMessage = "Please enter data first";
+			$scope.DisplayMessageToUser = "Please enter data first";
 					
 	};	
 }
