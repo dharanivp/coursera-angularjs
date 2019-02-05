@@ -28,10 +28,7 @@ function MyLunchCheckController($scope)
 			$scope.DisplayMessage = "Too much!";
 		else
 			$scope.DisplayMessage = "Please enter data first";
-			
-		
-	};
-	
+					
+	};	
 }
-
 })();
